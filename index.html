@@ -23,7 +23,7 @@
     border-bottom: 1px solid var(--border); padding: 0 2rem;
     display: flex; align-items: center; justify-content: space-between; height: 64px;
   }
-  .nav-name { font-family: var(--serif); font-size: 1.05rem; color: var(--forest); }
+  .nav-name { font-family: var(--serif); font-size: 1.05rem; color: var(--forest); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200px; }
   .nav-links { display: flex; gap: 1.75rem; list-style: none; align-items: center; }
   .nav-links a { font-size: 0.875rem; font-weight: 400; color: var(--text-mid); text-decoration: none; letter-spacing: 0.03em; transition: color 0.2s; }
   .nav-links a:hover { color: var(--forest); }
